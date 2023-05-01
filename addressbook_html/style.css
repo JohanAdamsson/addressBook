@@ -116,11 +116,11 @@ hr {
 		display: none;
 	}
 	/* Changing for media mode */
-	.left-column {
-		border-radius: 0;
+	.left-column, .right-column {
 		width: 100%;
 		text-align: center;
-		flex-basis: 100%;
+		border-radius: 0;
+		padding: 25px;
 	}
 	/* Adjusting link list */
 	.left-column ul li {
@@ -131,11 +131,7 @@ hr {
 		font-size: 16px;
 		padding: 10px;
 	}
-	/* Adjust the right side of website */
-	.right-column {
-		width: 100%;
-		border-radius: 0;
-	}
+	
 	/* H3 condition */
 	.right-column h3 {
 		font-size: 16px;
@@ -143,7 +139,7 @@ hr {
 	}
 	/* Text conditions in the right-column */
 	.right-column p {
-		max-width: 350px;
+		max-width: 450px;
 		margin-bottom: 10px;
 	}
 	/* H1 condition */
